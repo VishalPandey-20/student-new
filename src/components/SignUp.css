@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url("../img/dark_wood.png");
+}
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  margin: 3% auto;
+  font-size: 30px;
+  color: #fff;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 80vh; */
+}
+
+
+
+#email,
+#rollNo,
+#Subject,
+#store,
+#userName{
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+  width: 220px;
+}
